@@ -8,6 +8,7 @@ cd /home/erpuser/frappe-bench/apps/erpnext/
 /usr/local/bin/virtualenv --quiet env -p python3
 ./env/bin/python -m pip install --quiet --upgrade pip
 ./env/bin/python -m pip install --quiet --upgrade .
+npm i node-erpnext
 yarn install
 bench build
 sudo chown erpuser:erpuser -R /home/erpuser
